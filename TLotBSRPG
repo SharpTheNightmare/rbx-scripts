@@ -1,0 +1,14 @@
+loadstring(game:HttpGet("https://gist.githubusercontent.com/kobe9115/ae208b697ddc3ca4f0a9fd5c3a630acc/raw", true))()
+local LP = game.Players.LocalPlayer
+local DXP = Instance.new("Model")
+local QT = Instance.new("Model")
+local TP = Instance.new("Model")
+local VIP = Instance.new("Model")
+DXP.Name = "DoubleXP"
+QT.Name = "QuickTravel"
+TP.Name = "Teleportation"
+VIP.Name = "VIP"
+DXP.Parent = LP
+QT.Parent = LP
+TP.Parent = LP
+VIP.Parent = LP
